@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+source 'http://gems.sic-software.com'
 gemspec
 
 gem "httpclient", "~> 2.3.4"

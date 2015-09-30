@@ -5,7 +5,7 @@ $:.unshift lib unless $:.include? lib
 require "savon/version"
 
 Gem::Specification.new do |s|
-  s.name        = "savon"
+  s.name        = "sic-savon"
   s.version     = Savon::VERSION
   s.authors     = "Daniel Harrington"
   s.email       = "me@rubiii.com"
@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.rubyforge_project = s.name
   s.license = 'MIT'
 
-  s.add_dependency "nori",     "~> 2.4"
+  s.add_dependency "sic-nori",     "~> 2.4"
   s.add_dependency "httpi",    "~> 2.3"
   s.add_dependency "wasabi",   "~> 3.4"
   s.add_dependency "akami",    "~> 1.2"
